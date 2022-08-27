@@ -1,8 +1,15 @@
+import Back from "./components/Back";
+import Destinations from "./components/Destinations";
+import Navbar from "./components/Navbar";
+import Search from "./components/Search";
 
 function App() {
   return (
     <div >
-     <h1>hello</h1>
+     <Navbar/>
+     <Back/>
+     <Destinations/>
+     <Search/>
     </div>
   );
 }
